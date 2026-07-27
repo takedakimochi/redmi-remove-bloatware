@@ -20,6 +20,20 @@ Skrip ini mengelompokkan paket bloatware ke dalam beberapa kategori:
 
 ---
 
+## ⚠️ DILARANG HAPUS! (Risiko Bootloop / Crash Sistem)
+
+**Jangan pernah menghapus paket-paket di bawah ini.** Paket ini berisi OS, framework UI, layanan MediaTek, telephony, dan keamanan inti:
+
+- ⚙️ **Sistem Inti Android & MIUI:** `android`, `com.miui.system`, `com.miui.home`, `com.miui.core`, `com.miui.securitycenter`, `com.android.systemui`, `com.android.settings`, `miui.systemui.plugin`.
+- 🌐 **Layanan Google Framework (GMS):** `com.google.android.gms`, `com.google.android.gsf`, `com.android.vending` (Play Store), `com.google.android.webview`.
+- 🛠️ **Hardware & Driver MediaTek:** Semua yang diawali `com.mediatek.*` (misal: `com.mediatek.ims`, `telephony`, `frameworkresoverlay`), `com.focaltech.fingerprint`, `com.fingerprints.sensortesttool`.
+- 📞 **Layanan Telepon & Jaringan:** `com.android.phone`, `com.android.providers.telephony`, `com.android.incallui`, `com.android.server.telecom`.
+- 💾 **Penyimpanan & Database:** `com.android.providers.media`, `com.android.providers.settings`, `com.android.externalstorage`.
+- 🎨 **Overlay & UI Theme:** Semua paket yang memiliki kata `.overlay` di belakangnya.
+
+---
+
+
 ## 🛠️ Persyaratan & Cara Install
 
 ### 1. Prasyarat Sistem (di Komputer/Laptop)
