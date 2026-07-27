@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 # =============================================================================
-#  uninstall_bloatware.sh — Redmi 9C Bloatware Remover
-#  Dibuat untuk: Redmi 9C (MIUI / Android)
+#  uninstall_bloatware.sh — Redmi / Xiaomi Bloatware Remover
+#  Dibuat untuk: Semua Seri HP Redmi / Xiaomi / POCO (MIUI / HyperOS / Android)
 #  Cara pakai  : bash uninstall_bloatware.sh
 #  Dependensi  : adb (Android Debug Bridge)
 #
@@ -203,7 +203,7 @@ ALL_PACKAGES=(
 banner() {
     echo -e "${CYAN}"
     echo "╔══════════════════════════════════════════════════════╗"
-    echo "║       Redmi 9C Bloatware Remover — via ADB          ║"
+    echo "║     Redmi / Xiaomi Bloatware Remover — via ADB      ║"
     echo "╚══════════════════════════════════════════════════════╝"
     echo -e "${RESET}"
 }

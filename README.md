@@ -1,6 +1,6 @@
-# 🚀 Redmi 9C Bloatware Remover (`uninstall_bloatware.sh`)
+# 🚀 Redmi & Xiaomi Bloatware Remover (`uninstall_bloatware.sh`)
 
-Skrip otomatis bash buat ngebasmi dan menonaktifkan aplikasi sampah (*bloatware*) bawaan HP Redmi 9C (MIUI / Android) lewat ADB. Bikin HP lu makin lega, enteng, dan bebas dari amukan iklan MIUI! 💥📱
+Skrip otomatis bash buat ngebasmi dan menonaktifkan aplikasi sampah (*bloatware*) bawaan semua tipe HP **Redmi, Xiaomi, dan POCO** (MIUI / HyperOS / Android) lewat ADB. Bikin HP lu makin lega, enteng, dan bebas dari amukan iklan MIUI! 💥📱
 
 ---
 
@@ -52,9 +52,9 @@ Komputer lu wajib punya **ADB (Android Debug Bridge)**.
   sudo dnf install android-tools
   ```
 
-### 2. Persiapan di HP (Redmi 9C / Android)
+### 2. Persiapan di HP (Redmi / Xiaomi / POCO / Android)
 1. Buka **Setelan (Settings)** ➡️ **Tentang Ponsel (About Phone)**.
-2. Ketuk **Versi MIUI (MIUI Version)** sebanyak **7 kali** sampai muncul notifikasi *"Anda adalah seorang pengembang!"*.
+2. Ketuk **Versi MIUI / OS (MIUI Version / HyperOS Version)** sebanyak **7 kali** sampai muncul notifikasi *"Anda adalah seorang pengembang!"*.
 3. Kembali ke Setelan ➡️ **Setelan Tambahan (Additional Settings)** ➡️ **Opsi Pengembang (Developer Options)**.
 4. Aktifkan **Debug USB (USB Debugging)**.
 5. Hubungkan HP ke laptop/komputer pakai kabel data USB.
@@ -140,7 +140,7 @@ bash uninstall_bloatware.sh
 **Contoh Output di Terminal:**
 ```text
 ╔══════════════════════════════════════════════════════╗
-║       Redmi 9C Bloatware Remover — via ADB          ║
+║     Redmi / Xiaomi Bloatware Remover — via ADB      ║
 ╚══════════════════════════════════════════════════════╝
 
 [*] Memeriksa koneksi perangkat...
